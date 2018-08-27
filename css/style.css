@@ -1,0 +1,452 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    background-image: url("../img/bg.jpg");
+    background-size: 100%;
+}
+.centerw{
+    background-color: black;
+    opacity: 0.8;
+}
+.bg1{
+    background-color: black;
+    opacity: 0.7;
+    position: fixed;
+}
+.bg2{
+    position: fixed;
+}
+.bg3{
+    background-color: black;
+    opacity: 0.7;
+    position: fixed;
+}
+.titleh3{
+    color: #ffffff;
+    margin-bottom: 50px;
+    padding: 0;
+    text-align: center;
+}
+.da-thumbs {
+    list-style: none;
+    position: relative;
+    padding: 0;
+}
+.da-thumbs li {
+    float: left;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+.da-thumbs li
+.da-thumbs li img {
+    display: block;
+    position: relative;
+}
+.da-thumbs li {
+    overflow: hidden;
+}
+.da-thumbs li div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+}
+.da-thumbs li div h1 {
+    display: block;
+    padding-top: 100px;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    margin: 0;
+}
+.da-thumbs li div p {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+}
+.da-thumbs li div a {
+    text-decoration: none;
+}
+.tachdong1{
+    margin-bottom: 100px;
+}
+.contentnd1 {
+    float: left;
+}
+.contentnd1 h2{
+    color: #ff9822;
+}
+.contentnd1 span{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+    line-height: 28px;
+}
+.contentnd1 p{
+    color: #fff;
+    font-size: 16px;
+    text-align: justify;
+    display: block;
+    line-height: 28px;
+}
+.contentnd1 a{
+    color: #fff;
+    font-size: 18px;
+    border-radius: 100%;
+    display: block;
+    line-height: 28px;
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #fff;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 50px;
+}
+.contentnd1 a:hover{
+    background-color:#ff9822 ;
+    text-decoration: none;
+    color: #fff;
+
+}
+.contentnd2{
+    float: left;
+}
+.contentnd2 img{
+    border-radius: 5px;
+    border: #fff solid 5px;
+    width: 100%;
+}
+.carousel img{
+    height: 750px;
+    width: 1650px;
+}
+.nav_vertical {
+    background-color: rgba(10, 10, 10, 0.9);
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+.nav-item {
+    vertical-align: center;
+}
+
+.nav-link {
+    vertical-align: center;
+}
+.mobile-bar > li {
+    position: relative;
+    padding: 0 1em;
+}
+.mobile-bar > li > a {
+    padding: 10px 8px 10px 40px;
+    width: 100%;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: 200;
+}
+.mobile-bar li:hover {
+    background: orange;
+}
+.mobile-bar li:hover a {
+    color: #fff;
+}
+.content-right {
+    color: #fff;
+}
+
+/*==Dropdown Menu==*/
+
+.sub-menu {
+    position: absolute;
+    width: 200px;
+    left: 337px;
+    background-color: rgba(10, 10, 10, 0.9);
+    list-style: none;
+    padding: 0;
+    z-index: 999;
+    display: none;
+    top: 0;
+}
+.sub-menu a {
+    padding: 10px 8px 10px 10px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: 200;
+    border-bottom: 1px solid rgba(44, 44, 44, 0.8);
+}
+.sub-menu a:hover {
+    text-decoration: none;
+}
+ul li:hover .sub-menu {
+    display: block;
+}
+.input-group {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+.iconns {
+    margin: 10px 30px;
+    text-align: center;
+}
+.copyright {
+    text-align: center;
+    font-size: 15px;
+    color: #696969;
+    line-height: 24px;
+    margin: 0 0 1.75em;
+}
+
+.logo {
+    width: 200px;
+    margin: 20px auto 30px;
+}
+#Layer_2 {
+    display: none;
+}
+.input-group input[type="search"] {
+    background: rgba(91, 91, 91, 0.56);
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.input-group input::placeholder {
+    color: #ccc;
+}
+.iconns i {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*----- Button mobile -----*/
+
+.menu-triger {
+    background: none;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    float: right;
+    padding: 4px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    z-index: 9;
+    cursor: pointer;
+}
+.menu-triger > span {
+    background: #fff;
+    clear: both;
+    float: left;
+    height: 3px;
+    margin: 3px 0;
+    width: 30px;
+}
+.menu-triger {
+    display: none;
+}
+
+
+/*-------------- Responsive ----------------*/
+
+@media all and (max-width: 1024px) {
+
+    .schedules .nav-tabs li a {
+        font-size: 22px;
+    }
+}
+
+
+@media all and (max-width: 980px) {
+
+    .schedules .nav-tabs li a {
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 800px) {
+
+
+}
+
+@media all and (max-width: 768px) {
+
+    .menu-triger, #Layer_2 {
+        display: block;
+    }
+    .header-sidebar.nav_vertical, .content-right.schedules.pricing.pricing-two.padding-120 {
+        width: 100%;
+        max-width: 100%;
+        flex: inherit;
+    }
+    #Layer_1 {
+        display: none;
+    }
+    .logo {
+        margin: 10px 0 10px 20px;
+        width: 260px;
+    }
+    .mobile-bar > li > a {
+        padding-left: 5px;
+    }
+    .sub-menu {
+        left: auto;
+        right: 0;
+    }
+    .d-sm-none {
+        display: none;
+    }
+    .input-group {
+        margin-top: 10px;
+    }
+    .menu-mobile {
+        display: none;
+    }
+    .pricing .pricing-item .pricing-header {
+        padding: 30px 15px;
+    }
+    .pricing .pricing-item .pricing-header .name {
+        font-size: 20px;
+    }
+    .schedules .schedule-tabs {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media all and (max-width: 600px) {
+
+    .schedules .nav-tabs li a {
+        padding: 6px 10px;
+        font-size: 16px;
+    }
+
+    .ticket {
+        width: 100%;
+        max-width: 100%;
+        flex: inherit;
+    }
+    .pricing .pricing-item .pricing-header .name {
+        font-size: 24px;
+    }
+    .pricing .pricing-item .pricing-header .name {
+        padding: 0;
+    }
+}
+
+@media all and (max-width: 480px) {
+
+    .schedules .nav-tabs li {
+        float: none;
+        border: 1px solid #fafafa;
+        margin-bottom: 10px;
+    }
+    .section-header h3 {
+        font-size: 30px;
+    }
+    .schedules .nav-tabs {
+        display: block;
+    }
+}
+
+@media all and (max-width: 414px) {
+
+    .logo {
+        width: 200px;
+    }
+    .menu-triger {
+        top: 10px;
+    }
+}
+.quoctrung{
+    background-image: url("../img/about_bg.jpg");
+    background-size: cover;
+    background-position: center ;
+    height: 750px;
+}
+.quoctrung p{
+    border: 10px solid rgba(243, 243, 243, .2);
+    background: rgba(33, 33, 33, 0.6);
+    height: 80%;
+    width: 50%;
+    color: #fff;
+    font-size: 16px;
+    padding: 20px;
+    text-align: justify;
+    font-weight: 200;
+}
+.hienthislide{
+    background-image: url("../img/about_bg2.jpg");
+    height: 800px;
+}
+
+.bg span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 54px;
+    text-align: center;
+    line-height: 94.5px;
+    color: #fff;
+    display: block;
+    padding-top: 30px;
+}
+.bg p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 24px;
+    color: #fff;
+    display: block;
+}
+.carousel-item {
+    text-align: center;
+}
+.slide1 {
+    margin-top: 60px;
+
+}
+.slide1 img{
+    text-align: center;
+    width: 90%;
+    border: 2px solid #ffffff;
+}
+.ananh{
+    display: block;
+    margin-left: 125px;
+    margin-right: 100px;
+    margin-top: 300px;
+    height: 80%;
+    width: 80%;
+
+}
+.banner2 ul{
+    margin-left: 125px;
+    margin-right: 100px;
+    margin-bottom: 250px;
+}
+.banner2 li{
+    color: white;
+    display: inline-block;
+    padding: 0px;
+    font-size: 15px;
+}
+.can{
+    margin-left: 50px;
+}
+.banner2 ul{
+    display: inline-block;
+    margin-right: 0px;
+}
+.ngang li{
+    float: left;
+
+}
+

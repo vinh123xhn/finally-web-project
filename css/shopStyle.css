@@ -1,0 +1,511 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+}
+body {
+    background: url(../images/bg.jpg);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-attachment: scroll;
+        background-size: auto auto;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.nav_vertical {
+    background-color: rgba(10, 10, 10, 0.9);
+    height: 100%;
+    width: 100%;
+	padding: 0;
+}
+.nav-item {
+    vertical-align: center;
+}
+
+.nav-link {
+    vertical-align: center;
+}
+.mobile-bar > li {
+	position: relative;
+    padding: 0 1em;
+}
+.mobile-bar > li > a {
+    padding: 10px 8px 10px 40px;
+	width: 100%;
+	color: #fff;
+	display: block;
+	font-size: 14px;
+	font-weight: 200;
+}
+.mobile-bar li:hover {
+    background: orange;
+}
+.mobile-bar li:hover a {
+	color: #fff;
+}
+.content-right {
+	color: #fff;
+}
+
+/*==Dropdown Menu==*/
+
+.sub-menu {
+    position: absolute;
+    width: 200px;
+    left: 337px;
+    background-color: rgba(10, 10, 10, 0.9);
+    list-style: none;
+    padding: 0;
+	z-index: 999;
+	display: none;
+	top: 0;
+}
+.sub-menu a {
+	padding: 10px 8px 10px 10px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: 200;
+    border-bottom: 1px solid rgba(44, 44, 44, 0.8);
+}
+.sub-menu a:hover {
+	text-decoration: none;
+}
+ul li:hover .sub-menu {
+    display: block;
+}
+.input-group {
+    margin-top: 30px;
+    margin-bottom: 20px;
+	padding: 0 15px;
+}
+.iconns {
+    margin: 10px 30px;
+    text-align: center;
+}
+.copyright {
+    text-align: center;
+	font-size: 15px;
+    color: #696969;
+    line-height: 24px;
+    margin: 0 0 1.75em;
+}
+
+.logo {
+    width: 200px;
+	margin: 20px auto 30px;
+}
+#Layer_2 {
+    display: none;
+}
+.input-group input[type="search"] {
+    background: rgba(91, 91, 91, 0.56);
+    border: 0;
+    margin-bottom: 20px;
+	font-size: 14px;
+}
+.input-group input::placeholder {
+	color: #ccc;
+}
+.iconns i {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+
+/*----------- Css Shop ------------*/
+
+.schedules .schedule-tabs {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.pricing .section-header {
+    margin-bottom: 45px;
+    margin-top: 30px;
+}
+.schedules .nav-tabs {
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 20px;
+    border: none !important;
+}
+.schedules .nav-tabs li {
+    margin: 0px;
+    float: left;
+    display: block;
+}
+.schedules .nav-tabs li a {
+    border: 1px solid rgba(240, 240, 240, 0.64);
+    border-right: none;
+    border-radius: 0;
+    margin: 0px;
+    font-size: 24px;
+	display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ff9822;
+    padding: 6px 30px;
+    background: rgba(10, 10, 10, 0.47);
+}
+.schedules .nav-tabs li a span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #696969;
+    display: block;
+}
+.schedules .nav-tabs li a:hover span, .schedules .nav-tabs li a:focus span, .schedules .nav-tabs li.active a span {
+    color: #fff;
+	text-decoration: none;
+}
+.schedules .nav-tabs li:last-child a {
+    border-right: 1px solid rgba(240, 240, 240, 0.64);
+}
+.schedules .nav-tabs li.active a {
+    border: 1px solid #ff9822;
+    border-right: none;
+    background-color: #ff9822;
+    color: #fff;
+    margin: 0;
+}
+.schedules .nav-tabs li a:hover, .schedules .nav-tabs li a:focus {
+    border: 1px solid #65ac4c;
+    border-right: none;
+    background-color: #65ac4c;
+    color: #fff;
+    margin: 0;
+	text-decoration: none;
+}
+
+
+.pricing .pricing-item {
+    margin-bottom: 20px;
+}
+.pricing .pricing-item.third .pricing-header {
+    background-color: #65ac4c;
+}
+.pricing .pricing-item .pricing-header {
+    overflow: hidden;
+    padding: 36px 30px;
+}
+.pricing .pricing-item .pricing-header .name {
+    color: #fff;
+    padding: 5px 0px;
+    font-size: 26px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.pricing .pricing-item .pricing-header .amount {
+    color: #fff;
+    font-size: 1.4rem;
+}
+.pricing-two .pricing-item.third .pricing-options {
+    border-right: 10px solid #65ac4c;
+}
+.pricing-two .pricing-item.third .pricing-options {
+    border-left: 10px solid #65ac4c;
+    border-bottom: none;
+}
+.pricing .pricing-item .pricing-options {
+    background-color: #fff;
+    padding: 30px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.pricing .pricing-item .pricing-options p {
+    font-size: 15px;
+    line-height: 1;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    color: #696969;
+    border-bottom: 1px solid #f0f0f0;
+}
+.pricing-two .pricing-item .pricing-options p span {
+    float: right;
+    margin: 0px;
+}
+.pricing .pricing-item .pricing-options p span {
+    color: #fff;
+    background-color: #65ac4c;
+    height: 16px;
+    width: 16px;
+    font-size: 12px;
+    display: inline-block;
+    line-height: 17px;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.pricing .pricing-item .pricing-button {
+    padding: 25px 30px;
+    background-color: #fff;
+}
+.pricing-two .pricing-item .pricing-button {
+    background-color: #65ac4c;
+}
+.pricing-two .pricing-item .pricing-button a {
+    display: block;
+    text-align: center;
+    color: #fff !important;
+}
+.pricing .pricing-item .pricing-button a {
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.pricing .pricing-item.first .pricing-header {
+    background-color: #92278f;
+}
+.pricing-two .pricing-item.first .pricing-options {
+    border-right: 10px solid #92278f;
+}
+.pricing-two .pricing-item.first .pricing-options {
+    border-left: 10px solid #92278f;
+    border-bottom: none;
+}
+.pricing-two .pricing-item.first .pricing-button {
+    background-color: #92278f;
+}
+.pricing .pricing-item.second .pricing-header {
+    background-color: #ff9822;
+}
+.pricing-two .pricing-item.second .pricing-options {
+    border-right: 10px solid #ff9822;
+}
+.pricing-two .pricing-item.second .pricing-options {
+    border-left: 10px solid #ff9822;
+    //border-bottom: none;
+}
+.pricing-two .pricing-item.second .pricing-button {
+    background-color: #ff9822;
+}
+pricing .section-header h3, .pricing .section-header p {
+    color: #fff;
+}
+.section-header h3 {
+    line-height: 1.5;
+	font-size: 36px;
+	font-weight: 700;
+}
+.pricing .pricing-item.bg-combo .pricing-header, .pricing .pricing-item.bg-combo .pricing-button {
+    background-color: #CF5F4E;
+}
+.pricing .combo .pricing-item .pricing-header .name {
+    font-size: 20px;
+}
+.combo .col-md-3 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.pricing .pricing-item .pricing-header .amount {
+    color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+}
+.pricing .pricing-item .pricing-header .smalltext {
+    color: #fff;
+    margin-bottom: 0;
+}
+.pricing-two .combo .pricing-item .pricing-options {
+    min-height: 290px;
+}
+.pricing-two .pricing-item.bg-combo .pricing-options {
+    border-left: #CF5F4E 10px solid;
+    border-right: #CF5F4E 10px solid;
+    min-height: 280px;
+}
+.pricing .pricing-item .pricing-options {
+    background-color: #fff;
+    padding: 30px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.pricing-header.nghienthit {
+    background-image: url("../images/combo-chien.png");
+}
+.pricing-header.pizza, .pricing-header.nghienthit, .pricing-header.turborg, .pricing-header.bia3 {
+    background-size: 180px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-position-x: 130%;
+}
+.pricing .combo .pricing-item .pricing-header {
+    padding: 10px;
+}
+.pricing-header.pizza {
+    background-image: url("../images/pizza.png");
+}
+.pricing-header.bia3 {
+    background-image: url("../images/BIA3.png");
+}
+.pricing-header.turborg {
+    background-image: url("../images/coctuborg.png");
+}
+.padding-120 {
+	padding-bottom: 100px;
+}
+
+/*----- Button mobile -----*/
+
+.menu-triger {
+    background: none;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    float: right;
+    padding: 4px;
+    position: absolute;
+	right: 15px;
+    top: 15px;
+	z-index: 9;
+	cursor: pointer;
+}
+.menu-triger > span {
+    background: #fff;
+    clear: both;
+    float: left;
+    height: 3px;
+    margin: 3px 0;
+    width: 30px;
+}
+.menu-triger {
+	display: none;
+}
+
+
+/*-------------- Responsive ----------------*/
+
+@media all and (max-width: 1024px) {
+   
+   .schedules .nav-tabs li a {
+	   font-size: 22px;
+   }
+}
+
+
+@media all and (max-width: 980px) {
+   
+   .schedules .nav-tabs li a {
+	   font-size: 20px;
+   }
+}
+
+@media all and (max-width: 800px) {
+   
+   
+}
+
+@media all and (max-width: 768px) {
+   
+   .menu-triger, #Layer_2 {
+		display: block;
+	}
+	.header-sidebar.nav_vertical, .content-right.schedules.pricing.pricing-two.padding-120 {
+		width: 100%;
+		max-width: 100%;
+		flex: inherit;
+	}
+	#Layer_1 {
+		display: none;
+	}
+	.logo {
+		margin: 10px 0 10px 20px;
+		width: 260px;
+	}
+	.mobile-bar > li > a {
+		padding-left: 5px;
+	}
+	.sub-menu {
+		left: auto;
+		right: 0;
+	}
+	.d-sm-none {
+		display: none;
+	}
+	.input-group {
+		margin-top: 10px;
+	}
+	.menu-mobile {
+		display: none;
+	}
+	.pricing .pricing-item .pricing-header {
+		padding: 30px 15px;
+	}
+	.pricing .pricing-item .pricing-header .name {
+		font-size: 20px;
+	}
+	.schedules .schedule-tabs {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+@media all and (max-width: 600px) {
+   
+   .schedules .nav-tabs li a {
+	   padding: 6px 10px;
+	   font-size: 16px;
+   }
+   
+   .ticket {
+		width: 100%;
+		max-width: 100%;
+		flex: inherit;
+   }
+   .pricing .pricing-item .pricing-header .name {
+		font-size: 24px;
+	}
+	.pricing .pricing-item .pricing-header .name {
+		padding: 0;
+	}
+}
+
+@media all and (max-width: 480px) {
+   
+   .schedules .nav-tabs li {
+		float: none;
+		border: 1px solid #fafafa;
+		margin-bottom: 10px;
+   }
+   .section-header h3 {
+		font-size: 30px;
+	}
+	.schedules .nav-tabs {
+		display: block;
+	}
+}
+
+@media all and (max-width: 414px) {
+   
+   .logo {
+		width: 200px;
+	}
+	.menu-triger {
+		top: 10px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
