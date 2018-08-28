@@ -68,6 +68,13 @@ body{
     font-size: 15px;
     margin: 0;
 }
+.da-thumbs li div i {
+    display: block;
+    color: white;
+    font-size: 15px;
+    float: left;
+    padding-top: 10px;
+}
 .da-thumbs li div a {
     text-decoration: none;
 }
@@ -107,6 +114,8 @@ body{
     text-align: center;
     padding-top: 5px;
     margin-bottom: 50px;
+    margin-right: 20px;
+    float: left;
 }
 .contentnd1 a:hover{
     background-color:#ff9822 ;
